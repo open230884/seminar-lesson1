@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите число");
+
+int number = int.Parse(Console.ReadLine());
+
+int sq = number * number;
+
+int pow = Math.
